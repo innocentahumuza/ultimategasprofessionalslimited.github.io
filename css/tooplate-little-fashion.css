@@ -178,7 +178,7 @@ strong {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  background: none repeat scroll 0 0 var(--white-color);
+  background: none repeat scroll 0 0 var(--aqua-color);
 }
 
 .spinner {
@@ -322,7 +322,7 @@ strong {
 
 
 .navbar {
-  background: var(--white-color);
+  background: var(--dark-color);
   position: fixed;
   top: 0;
   right: 0;
