@@ -909,7 +909,7 @@ button:focus:not(:focus-visible) {
   PRODUCT               
 -----------------------------------------*/
 .front-product {
-  background: var(--section-bg-color);
+  background: var(--section-dark-color);
 }
 
 .product-thumb {
@@ -919,7 +919,8 @@ button:focus:not(:focus-visible) {
 }
 
 .product-image {
-  transition: all 0.5s ease-out;
+  transition: all 0.8s ease-out;
+  border: 2px solid rgb(64, 64, 65);
 }
 
 .product-thumb:hover .product-image {
@@ -940,11 +941,11 @@ button:focus:not(:focus-visible) {
 
 .product-description,
 .product-cart-thumb {
-  padding: 0 20px;
+  padding: 0 200px;
 }
 
 .product-icon {
-  color: var(--grey-color);
+  color: var(--red-color);
 }
 
 .product-title-link {
@@ -976,7 +977,7 @@ button:focus:not(:focus-visible) {
   color: var(--p-color);
   font-size: 13px;
   font-weight: var(--font-weight-bold);
-  border-bottom: 2px solid var(--grey-color);
+  border-bottom: 2px solid var(--dark-color);
   padding-bottom: 6px;
 }
 
