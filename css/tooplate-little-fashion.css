@@ -944,7 +944,7 @@ button:focus:not(:focus-visible) {
 }
 
 .product-icon {
-  color: var(--white-color);
+  color: var(--grey-color);
 }
 
 .product-title-link {
